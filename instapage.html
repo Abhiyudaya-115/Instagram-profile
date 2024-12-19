@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>इंस्टाग्राम प्रोफाइल वेबसाइट</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+ background-color: hwb(hue white black);
+}
+
+.profile-container {
+  width: 700px;
+  height: 1500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-image: url(circle\ background.jpg) ;
+
+  border: 4px solid rgba(224, 8, 8, 0.884);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+}
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profile-header a{
+  text-decoration: none;
+  font-family: Euclid Fraktur;
+  color: #fff;
+  font-size: 30px;
+}
+.profile-header a:hover{
+  text-decoration-color:red;
+  cursor: context-menu;
+  color: red;
+}
+.profile-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-container {
+  width: 150px;
+margin: 2px;
+margin-bottom: 20px;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-container img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* एनिमेशन */
+.profile-container {
+  animation: fade-in 1s;
+}
+
+.post-container {
+  animation: slide-in 1s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.background-animation {
+    animation: animate 20s ease-in-out infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        background-image: linear-gradient(to top, #fda1a4 0%, #ebbfdd 99%, #fa99db 100%);
+    }
+    10%{
+      background-image: linear-gradient(to top, #cc0f6d 0%, #bd3488 99%, #b463a7 100%);
+    }
+    20% {
+        background-image: linear-gradient(to top, #f7d2c4 0%, #f2c6de 99%, #f2c6de 100%);
+    }
+    30% {
+        background-image: linear-gradient(to top, #6c9b98 0%, #e9ceb4 99%, #dabb98 100%);
+    }
+    40% {
+        background-image: linear-gradient(to top, #c9e4ca 0%, #9dc73d 99%, #b9f52fc2 100%);
+    }
+    50% {
+        background-image: linear-gradient(to top, #b9998e 0%, #f0a1cc 99%, #d6cb64 100%);
+    }
+    60% {
+        background-image: linear-gradient(to top, #a9daee 0%, #6eadd4 99%, #a1c9e2 100%);
+    }
+    70% {
+        background-image: linear-gradient(to top, #d0e0a8 0%, #bedd96 99%, #b0c08c 100%);
+    }
+    80% {
+        background-image: linear-gradient(to top, #ff99cc 0%, #ffccff 99%, #ffccff 100%);
+    }
+    90% {
+        background-image: linear-gradient(to top, #c2a499 0%, #e288b9 99%, #8f7985 100%);
+    }
+    100% {
+        background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    }
+}
+.vid-container{
+width: 190px;
+justify-content: center;
+
+margin-left: 25px;
+}
+.instagram{
+  justify-content: center;
+  font-family: Gigi;
+  font-size: 45px;
+  margin-left: 188px;
+  font-style: unset;
+  text-decoration: none;
+ 
+}
+.instagram img{
+  justify-content: center;
+}
+.instagram a{
+  color: #fff;
+  text-decoration: none;
+}
+.instagram a:hover{
+  text-decoration: wavy;
+  cursor: crosshair;
+  color: red;
+}
+
+
+
+
+  </style>
+</head>
+<body class="background-animation">
+  <div class="profile-container">
+    <div class="profile-header">
+      <img src="circle-profile.jpg" alt="प्रोफाइल पिक्चर">
+      <h1>JYOTI SHARMA</h1>
+      <a href="https://www.instagram.com/shivaniya_singh_1018?igsh=NTc4MTIwNjQ2YQ==">shivaniya_singh_1018</a>
+      <p>Follow on instagram link below</p>
+    </div>
+    <div class="instagram">
+    <img  src="2nd.gif" alt="" width="80px" style="justify-content: center;"><a  href="https://www.instagram.com/shivaniya_singh_1018?igsh=NTc4MTIwNjQ2YQ==">Instagram</a><img  src="2nd.gif" alt="" width="80px">
+    </div>
+    <div class="profile-body">
+      <div class="post-container">
+        <img src="post-picture.jpg" alt="पोस्ट पिक्चर">
+        <p>HEY! GUYS......</p>
+      </div>
+      <div class="post-container">
+        <img src="post-picture2.jpg" alt="पोस्ट पिक्चर">
+        <p>I'AM COME BACK....</p>
+      </div>
+      <div class="post-container">
+        <img src="post-picture3.jpg" alt="पोस्ट पिक्चर">
+        <p>DANGEROUS GUDDY...</p>
+      </div>
+      <div class="post-container">
+        <img src="post-picture4.jpg" alt="पोस्ट पिक्चर">
+        <p>JYOTI SHARMA......</p>
+      </div>
+      </div>
+ <div class="">
+<video class="vid-container" src="vid 1.mp4" controls autoplay></video>
+<video class="vid-container" src="vid 2.mp4" controls autoplay></video>
+<video class="vid-container" src="vid 3.mp4" controls autoplay></video>
+<video class="vid-container" src="vid 4.mp4" controls autoplay></video>
+<video class="vid-container" src="vid 5.mp4" controls autoplay></video>
+<video class="vid-container" src="vid 6.mp4" controls autoplay></video>
+</div>
+  </div>
+<footer>
+<h1>Devloped by Agnivesh Sharma the website devloper..... <a href="https://www.instagram.com/abhi_ki_love_vines/?hl=en">abhi_ki_love_vines</a> &copy; 2024 All Right Reserved. </h1>
+
+</footer>
+
+
+
+  <script >
+    // एनिमेशन के लिए समय निर्धारित करें
+const animationDuration = 1000;
+
+// प्रोफाइल कंटेनर को एनिमेट करें
+const profileContainer = document.querySelector('.profile-container');
+profileContainer.style.opacity = 0;
+setTimeout(() => {
+  profileContainer.style.opacity = 1;
+}, animationDuration);
+
+// पोस्ट कंटेनर को एनिमेट करें
+const postContainers = document.querySelectorAll('.post-container');
+postContainers.forEach((postContainer) => {
+  postContainer.style.transform = 'translateX(-100%)';
+  setTimeout(() => {
+    postContainer.style.transform = 'translateX(0)';
+  }, animationDuration);
+});
+
+  </script>
+</body>
+</html>
+
+
+
